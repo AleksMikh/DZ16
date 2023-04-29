@@ -61,4 +61,6 @@ public class GameTest {
         game.register(player3);
         Assertions.assertThrows(NotRegisteredException.class, () -> game.round("Саша", "Петя"));
     }
+
+
 }
